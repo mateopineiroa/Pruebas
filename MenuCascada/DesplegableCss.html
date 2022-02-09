@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <style>
+    .contenido {
+        width: 900px;
+        height: 400px;
+        background-color: blue;
+        display: block;
+    
+    }
+.mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:30px;
+    
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;                  /* Por defecto display none */
+    background-color: skyblue;
+    width: 200px;
+    position: absolute;                 /* Le agrego esto para que no dependa de las otras cajas del documento. Que se pueda poner por encima */
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {   /* Es un condicional, al estar hover dropdown, le aplica eso a child */
+    display: block;                 /* Cambia display none a display block de child cuando hover */
+}
+</style>
+</head>
+<body>
+<div class="dropdown">
+    <button class="mainmenubtn">Main Menu</button>
+    <div class="dropdown-child">
+        <a href="http://wwww.tudominio.com/page1.html">Sub Menu 1</a>
+        <a href="http://wwww.tudominio.com/page2.html">Sub Menu 2</a>
+        <a href="http://wwww.tudominio.com/page3.html">Sub Menu 3</a>
+        <a href="http://wwww.tudominio.com/page4.html">Sub Menu 4</a>
+        <a href="http://wwww.tudominio.com/page5.html">Sub Menu 5</a>
+    </div>
+</div>
+<div class="contenido"></div>
+</body>
+</html>
