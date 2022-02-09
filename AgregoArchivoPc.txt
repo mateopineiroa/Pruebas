@@ -1,3 +1,6 @@
 Archivo editado desde pc
 Archivo editado desde laptop
 No estoy muy seguro de cuando me da error de merge
+Arregle el merging problem al sobreescribir lo editado
+
+Este problema puede anticiparse al usar otro branch y luego pull con el main local y merge con el main local
