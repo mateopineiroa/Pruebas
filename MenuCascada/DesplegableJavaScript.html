@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MenuCascada.css">
+    <title>Menu desplegable</title>
+</head>
+<body>
+    <script src="./cascada.js"></script>
+    <div class="fondo">
+        <div class="boton arriba" id="botoncito"></div>
+        <div class="opcion cero" id="opciones"></div>
+        <div class="opcion uno" id="opciones"></div>
+        <div class="opcion dos" id="opciones"></div>
+        <div class="opcion tres" id="opciones"></div>
+        
+    </div>
+    <script>
+        var botoncito = document.getElementById('botoncito');
+    botoncito.addEventListener('click',ocultarOpciones);
+
+    function ocultarOpciones() {
+    var menu = document.getElementsByClassName('opcion');
+    menu.Class.toggle('visible');
+}   
+    </script>
+</body>
+</html>

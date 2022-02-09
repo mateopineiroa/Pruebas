@@ -1,0 +1,83 @@
+.principal{
+    padding: 10px;
+    margin: 20px 10px 0 20px;
+    width: 400px;
+    background-color: #41591C;
+    border-radius: 10px;
+    box-sizing: border-box;     /* Padding */
+    height: fit-content;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo {
+    padding: 20px;                  /* No puedo cambiar el font-size del texto del div pero si de un h1 dentro del div */
+    color: #172601;
+    margin: 0px 10px 0 10px;
+    font-size: 30px;
+    text-align: center;
+}
+h1 {
+    margin: 0px;
+}
+.entrada {
+    padding: 15px;
+    margin: 5px auto 5px auto;      /* AUTO!! */
+    display: block;                 /* BLOCK!! (por que?) */
+    max-width: 80%;
+    min-width: 80%;
+    border-radius: 10px;
+    border: #C7D943 solid 2px;
+}
+
+.grande {
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.entrada:hover {
+    border: #C7D943 solid 2px; /* No Cambia */
+}
+
+.boton {
+    margin: 15px auto 15px auto;
+    padding: 15px;
+    display: block;
+    border: #C7D943 solid 2px;
+    border-radius: 10px;
+}
+
+.boton:hover {
+    border: #C7D943 solid 2px;
+    background-color: #AFBF75;
+}
+
+.cont {
+    display: flex;
+/*  flex-direction:row;  
+    justify-content:flex-start;
+    Esto es por defecto del display flex
+     */
+}
+
+.tareas {
+    background-color: #B2BF9F;
+    width: 400px;
+    margin: 20px 0px 0px 10px;
+    border-radius: 10px;
+}
+
+.tareaNueva {
+    width: 80%;
+    margin: 20px auto 20px auto;
+    background-color: #AFBF75;
+    max-height: fit-content;
+
+}
+
+.completada {
+    opacity: .4;
+}
+

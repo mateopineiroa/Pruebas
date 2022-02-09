@@ -1,0 +1,75 @@
+.fondo {
+    background-color: blueviolet;
+    width: 700px;
+    height: 300px;
+    margin: 20px;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.boton {
+    background-color: brown;
+    width: 30px;
+    height: 30px;
+    position: absolute; /* position absolute me mide las coordenadas respecto a la esquina superior izquierda */
+    top: 10px;
+    left: 10px;
+}
+
+.boton:hover{
+    opacity: .5;
+    cursor: pointer ;
+}
+
+.visible {
+    opacity: 0; /* Esta propiedad se la voy a poner y sacar cuando haga click en mi menu */
+}
+
+.opcion {
+    position: absolute;
+    
+}
+
+.cero {
+    position: relative;
+    top: 40px;
+    left: 10px;
+    height:30px;
+    width:150px;
+    background:turquoise;
+}
+
+.uno {
+    position: relative;
+    top:40px;               /* Me lo posiciona respecto al contenedor anterior?? */
+    left: 10px;
+    height:30px;
+    width:150px;
+    background:violet;
+}
+
+.dos {
+    position: relative;
+    top:40px;
+    left: 10px;
+    height:30px;
+    width:150px;
+    background:wheat;
+}
+
+.tres {
+    position: relative;
+    top:40px;
+    left: 10px;
+    height:30px;
+    width:150px;
+    background:tomato;
+}
