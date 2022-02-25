@@ -1,0 +1,12 @@
+-Instalo nodejs (y npm(?))
+-Ingreso al dorectorio del repositorio
+-inicio el npm con "npm init"
+-instalo nodemon: "npm install -D node-sass nodemon"
+-creo carpetas scss y css con sus respectivos archivos
+-Edita el package.json e inserta los siguientes dos lineas en la sección "scripts".
+	"build-css": "node-sass --include-path scss scss/archivoScss.scss css/archivoCss.css",
+	"watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+-Compila con npm: " npm run watch-css"
+
+Tambien puedo usar extension de code, instalo "live sass compiler", de Ritwick Dey
